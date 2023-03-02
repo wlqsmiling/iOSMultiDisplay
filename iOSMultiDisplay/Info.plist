@@ -5,7 +5,7 @@
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
+		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
@@ -19,6 +19,28 @@
 					<string>Main</string>
 				</dict>
 			</array>
+			<key>UIWindowSceneSessionRoleExternalDisplay</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>External Display Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).ExSceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>ExternalDisplay</string>
+				</dict>
+			</array>
+<!--			<key>UIWindowSceneSessionRoleExternalDisplayNonInteractive</key>-->
+<!--			<array>-->
+<!--				<dict>-->
+<!--					<key>UISceneConfigurationName</key>-->
+<!--					<string>External Display Configuration2</string>-->
+<!--					<key>UISceneDelegateClassName</key>-->
+<!--					<string>$(PRODUCT_MODULE_NAME).ExSceneDelegate</string>-->
+<!--					<key>UISceneStoryboardFile</key>-->
+<!--					<string>ExternalDisplay</string>-->
+<!--				</dict>-->
+<!--			</array>-->
 		</dict>
 	</dict>
 </dict>
